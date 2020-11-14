@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "TextQuestion": "Как расшифровывается аббревиатура IED?",
     "TextAnswer1": "Информационно электронное реле",
     "TextAnswer2": "Интеллектуальное устройство учета",
@@ -8,6 +9,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 2,
     "TextQuestion": "Какие сетевые настройки IED влияют на передачу GOOSE-сообщений?",
     "TextAnswer1": "MAC –адрес и IP – адрес",
     "TextAnswer2": "IP - адрес и VLAN",
@@ -16,6 +18,7 @@
     "CorrectAnswer": 4
   },
   {
+    "id": 3,
     "TextQuestion": "К какому механизму передачи данных относятся GOOSE-сообщения?",
     "TextAnswer1": "Клиент-сервер",
     "TextAnswer2": "Master-slave",
@@ -24,6 +27,7 @@
     "CorrectAnswer": 4
   },
   {
+    "id": 4,
     "TextQuestion": "Какие первоначальные четыре октета MAC-адреса зарезервировано за ТК57 МЭК?",
     "TextAnswer1": "01:0D:BB:01",
     "TextAnswer2": "00:0С:ВB:01",
@@ -32,6 +36,7 @@
     "CorrectAnswer": 2
   },
   {
+    "id": 5,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -40,6 +45,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 6,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -48,6 +54,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 7,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -56,6 +63,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 8,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -64,6 +72,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 9,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -72,6 +81,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 10,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -80,6 +90,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 11,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -88,6 +99,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 12,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -96,6 +108,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 13,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -104,6 +117,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 14,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",
@@ -112,6 +126,7 @@
     "CorrectAnswer": 3
   },
   {
+    "id": 15,
     "TextQuestion": "",
     "TextAnswer1": "",
     "TextAnswer2": "",

@@ -6,7 +6,8 @@ defmodule Testhub.Repo.Migrations.CreateResults do
       add :name, :string
       add :group, :string
       add :test_id, references(:tests, on_delete: :nothing)
-      add :resultjson, :string
+      add :resultjson, :text
+      add :response, :text
 
       timestamps()
     end

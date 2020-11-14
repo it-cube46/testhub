@@ -1,3 +1,9 @@
+<style>
+li.correct { font-weight: bold; }
+li.rans { color: green; }
+li.wans { color: red }
+</style>
+  
 <h1>Show Result</h1>
 
 <ul>
@@ -18,12 +24,34 @@
     (<%= @result.test.title %>)
   </li>
 
-  <li>
-    <strong>Resultjson:</strong>
-    <%= @result.resultjson %>
-  </li>
-
 </ul>
+
+<%= for question  <- @details do %>
+<div>
+<%= if question.ans == question.right do "+" else "-" end %>
+<b><%= question.tq %></b>
+<ul>
+<%= for {id, txt} <- question.items do %>
+<li class="
+<%= if id == question.right do %>
+correct
+<% end %>
+
+<%= if id == question.ans do %>
+<%= if id == question.right do %>
+rans
+<% else %>
+wans
+<% end %>
+<% end %>
+
+">
+<%= id %>: <%= txt %> </li>
+
+<% end %>
+</ul>
+</div>
+<% end %>
 
 <!--span><%= link "Edit", to: Routes.result_path(@conn, :edit, @result) %></span-->
 <span><%= link "Back", to: Routes.result_path(@conn, :index) %></span>

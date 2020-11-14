@@ -10,8 +10,8 @@ defmodule TesthubWeb.PostResultView do
     %{data: render_one(post_result, PostResultView, "post_result.json")}
   end
 
-  def render("test.json", %{}) do
-    %{ok: "test"}
+  def render("testresult.json", %{score: score, result: res}) do
+    %{score: score, result: res}
   end
 
   def render("error.json", %{text: error_text}) do

@@ -25,8 +25,9 @@ defmodule TesthubWeb.Router do
   # Other scopes may use custom stacks.
   scope "/api", TesthubWeb do
     pipe_through :api
-    resources "/results", PostResultController, except: [:new, :edit]
-    resources "/tests", TestApiController, except: [:new, :edit]
+    post "/results", PostResultController, :create
+    get  "/results", PostResultController, :index
+    get  "/tests", TestApiController, :index
   end
 
   # Enables LiveDashboard only for development

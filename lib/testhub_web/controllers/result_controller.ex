@@ -28,7 +28,7 @@ defmodule TesthubWeb.ResultController do
 
   def show(conn, %{"id" => id}) do
     result = Results.get_result!(id)
-    render(conn, "show.html", result: result)
+    render(conn, "show.html", result: result, details: Testhub.Check.details(result))
   end
 
 #  def edit(conn, %{"id" => id}) do

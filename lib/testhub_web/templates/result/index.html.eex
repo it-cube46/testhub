@@ -6,8 +6,7 @@
       <th>Name</th>
       <th>Group</th>
       <th>Test</th>
-      <th>Resultjson</th>
-
+      <th>score</th>
       <th></th>
     </tr>
   </thead>
@@ -17,7 +16,7 @@
       <td><%= result.name %></td>
       <td><%= result.group %></td>
       <td><%= result.test.name %></td>
-      <td><%= result.resultjson %></td>
+      <td><%= result.score/10  %>%</td>
 
       <td>
         <span><%= link "Show", to: Routes.result_path(@conn, :show, result) %></span>
