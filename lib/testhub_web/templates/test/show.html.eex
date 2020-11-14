@@ -1,0 +1,23 @@
+<h1>Show Test</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @test.name %>
+  </li>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @test.title %>
+  </li>
+
+  <li>
+    <strong>Filename:</strong>
+    <%= @test.filename %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.test_path(@conn, :edit, @test) %></span>
+<span><%= link "Back", to: Routes.test_path(@conn, :index) %></span>

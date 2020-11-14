@@ -1,0 +1,23 @@
+<h1>Show Result item</h1>
+
+<ul>
+
+  <li>
+    <strong>Responce:</strong>
+    <%= @result_item.responce %>
+  </li>
+
+  <li>
+    <strong>Valid:</strong>
+    <%= @result_item.valid %>
+  </li>
+
+  <li>
+    <strong>Score:</strong>
+    <%= @result_item.score %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.result_item_path(@conn, :edit, @result_item) %></span>
+<span><%= link "Back", to: Routes.result_item_path(@conn, :index) %></span>

@@ -1,0 +1,30 @@
+<h1>Listing Tests</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Title</th>
+      <th>Filename</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for test <- @tests do %>
+    <tr>
+      <td><%= test.name %></td>
+      <td><%= test.title %></td>
+      <td><%= test.filename %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.test_path(@conn, :show, test) %></span>
+        <span><%= link "Edit", to: Routes.test_path(@conn, :edit, test) %></span>
+        <span><%= link "Delete", to: Routes.test_path(@conn, :delete, test), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Test", to: Routes.test_path(@conn, :new) %></span>

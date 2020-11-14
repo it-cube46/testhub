@@ -1,0 +1,31 @@
+<h1>Listing Results</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Group</th>
+      <th>Resultjson</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for result <- @results do %>
+    <tr>
+      <td><%= result.name %></td>
+      <td><%= result.group %></td>
+      <td><%= result.test.name %></td>
+      <td><%= result.resultjson %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.result_path(@conn, :show, result) %></span>
+        <!--span><%= link "Edit", to: Routes.result_path(@conn, :edit, result) %></span-->
+        <span><%= link "Delete", to: Routes.result_path(@conn, :delete, result), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<!--span><%= link "New Result", to: Routes.result_path(@conn, :new) %></span-->

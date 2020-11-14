@@ -1,0 +1,122 @@
+[
+  {
+    "TextQuestion": "Как расшифровывается аббревиатура IED?",
+    "TextAnswer1": "Информационно электронное реле",
+    "TextAnswer2": "Интеллектуальное устройство учета",
+    "TextAnswer3": "Интеллектуальное электронное устройство",
+    "TextAnswer4": "Международный энергетический департамент",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "Какие сетевые настройки IED влияют на передачу GOOSE-сообщений?",
+    "TextAnswer1": "MAC –адрес и IP – адрес",
+    "TextAnswer2": "IP - адрес и VLAN",
+    "TextAnswer3": "MAC - адрес и APPID",
+    "TextAnswer4": "Все вместе",
+    "CorrectAnswer": 4
+  },
+  {
+    "TextQuestion": "К какому механизму передачи данных относятся GOOSE-сообщения?",
+    "TextAnswer1": "Клиент-сервер",
+    "TextAnswer2": "Master-slave",
+    "TextAnswer3": "Издатель-подписчик",
+    "TextAnswer4": "Точка-точка",
+    "CorrectAnswer": 4
+  },
+  {
+    "TextQuestion": "Какие первоначальные четыре октета MAC-адреса зарезервировано за ТК57 МЭК?",
+    "TextAnswer1": "01:0D:BB:01",
+    "TextAnswer2": "00:0С:ВB:01",
+    "TextAnswer3": "01:0С:CD:04",
+    "TextAnswer4": "01:0C:CD:01",
+    "CorrectAnswer": 2
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  },
+  {
+    "TextQuestion": "",
+    "TextAnswer1": "",
+    "TextAnswer2": "",
+    "TextAnswer3": "",
+    "TextAnswer4": "",
+    "CorrectAnswer": 3
+  }
+]
