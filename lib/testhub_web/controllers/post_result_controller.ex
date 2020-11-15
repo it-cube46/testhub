@@ -13,8 +13,15 @@ defmodule TesthubWeb.PostResultController do
   end
 
   def create(conn, data) do
-    data |> inspect() |> Logger.info
+    #data |> inspect() |> Logger.info
     case data do
+      %{ "username"=> user, "group"=> group, "test"=> testid,
+        "kind" => "iedlab", "answer"=>ans } ->
+        Logger.info(inspect(ans))
+        problems=Testhub.Check.checkieds(ans) 
+        problems |> inspect |> Logger.info
+        render(conn, "error.json", text: problems)
+
       %{ "username"=> user, "group"=> group, "test"=> testid, "answers"=>ans } ->
         testinfo=Testhub.Repo.get(Testhub.Tests.Test,testid)
         testinfo |> inspect() |> Logger.info
